@@ -1,22 +1,23 @@
 import Image from "next/image";
 import Img from "../../images/57d1fed6beee4982a729978553fb8ae2.avif";
+import Link from "next/link";
 
 const ContactUs = () => {
   return (
     <section className="bg-gray-100 py-12 px-4">
       <div className="w-full container mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
-        {/* Header Section */}
+        /* Header Section */
         <div className="p-6 text-center">
           <h2 className="text-4xl font-bold mb-3">Contact Us</h2>
           <address className="not-italic text-gray-700 text-base leading-relaxed">
             547 Moreland Way, Santa Clara, CA 95054<br />
             United States<br />
-            <a href="mailto:remotejobhabiledata@aol.com" className="block hover:underline">
+            <Link href="mailto:remotejobhabiledata@aol.com" className="block hover:underline">
               remotejobhabiledata@aol.com
-            </a>
-            <a href="tel:+13128564179" className="block hover:underline">
+            </Link>
+            <Link href="tel:+13128564179" className="block hover:underline">
               (312) 856-4179
-            </a>
+            </Link>
           </address>
         </div>
 
