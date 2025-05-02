@@ -1,0 +1,52 @@
+import { Facebook, Twitter, Linkedin, Mail, Link } from "lucide-react";
+import Image from "next/image";
+import Logo from "../icons/sutherland-logo-colour.webp";
+
+const Footer = () => {
+  return (
+    <footer className="bg-white text-gray-700 py-10 px-6">
+      <div className="w-full container mx-auto flex flex-col gap-4 md:flex-row items-center md:items-start text-center md:text-start justify-between text-sm">
+        {/* Branding */}
+        <div className="flex flex-col gap-2">
+          <h2 className="text-gray-700 text-lg font-bold">RemoteJob</h2>
+          <p className="text-sm">Connecting talent with opportunity <br/> wherever you are.</p>
+          <a href="/">
+          <Image src={Logo} alt="sutherland-logo" width={220} height={220}/>
+          </a>
+        </div>
+
+        {/* Navigation Links */}
+        <div className="flex flex-col gap-2 ">
+          <h3 className="text-gray-700 text-lg font-semibold mb-2">Quick Links</h3>
+          <a href="/about" className="hover:underline">About Us</a>
+          <a href="/faq" className="hover:underline">FAQ</a>
+          <a href="/services" className="hover:underline">Services</a>
+          <a href="/career" className="hover:underline">Careers</a>
+          <a href="/booking" className="hover:underline">Book Online</a>
+        </div>
+
+        {/* Social & Contact */}
+        <div className="">
+          <h3 className="text-gray-700  font-semibold mb-2">Connect With Us</h3>
+          <div className="flex justify-center md:justify-start space-x-4 mb-4">
+            <a href="https://facebook.com" aria-label="Facebook">
+              <Facebook className="w-5 h-5 hover:text-white" />
+            </a>
+            <a href="https://twitter.com" aria-label="Twitter">
+              <Twitter className="w-5 h-5 hover:text-white" />
+            </a>
+            <a href="https://linkedin.com" aria-label="LinkedIn">
+              <Linkedin className="w-5 h-5 hover:text-white" />
+            </a>
+            <a href="mailto:remotejobhabiledata@aol.com" aria-label="Email">
+              <Mail className="w-5 h-5 hover:text-white" />
+            </a>
+          </div>
+          <p className="text-xs">&copy; {new Date().getFullYear()} RemoteJob. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
