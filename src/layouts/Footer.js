@@ -1,9 +1,9 @@
-import { Facebook, Twitter, Linkedin, Mail, Link } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Mail } from "lucide-react";
 import Image from "next/image";
 import Logo from "../icons/sutherland-logo-colour.webp";
 import Link from "next/link";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="bg-white text-gray-700 py-10 px-6">
       <div className="w-full container mx-auto flex flex-col gap-4 md:flex-row items-center md:items-start text-center md:text-start justify-between text-sm">
@@ -49,5 +49,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
