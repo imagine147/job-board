@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <section className="bg-gray-100 py-12 px-4">
       <div className="w-full container mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
-        /* Header Section */
+        {/* Header Section */}
         <div className="p-6 text-center">
           <h2 className="text-4xl font-bold mb-3">Contact Us</h2>
           <address className="not-italic text-gray-700 text-base leading-relaxed">
