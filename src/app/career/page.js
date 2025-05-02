@@ -1,4 +1,5 @@
 import { Briefcase, Rocket, Users, Heart } from "lucide-react";
+import Link from "next/link";
 
 export default function CareerPage() {
   const jobs = [
@@ -71,12 +72,12 @@ export default function CareerPage() {
                   {job.location} • {job.type}
                 </p>
               </div>
-              <a
+              <Link
                 href="/apply"
                 className="text-blue-600 font-medium hover:underline"
               >
                 Apply
-              </a>
+              </Link>
             </div>
           ))}
         </div>
@@ -104,12 +105,12 @@ export default function CareerPage() {
         <p className="mb-6">
           We’re always on the lookout for great talent. Reach out and introduce yourself.
         </p>
-        <a
+        <Link
           href="/apply"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
         >
           Send a General Application
-        </a>
+        </Link>
       </section>
     </div>
   );
