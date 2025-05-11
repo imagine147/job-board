@@ -66,14 +66,19 @@ export default function BookingSection() {
             <option value="jobsearch">Job Search Strategy</option>
           </select>
 
-          <input
-            type="date"
-            name="date"
-            value={formData.date}
-            onChange={handleChange}
-            required
-            className="p-3 border border-gray-300 rounded"
-          />
+          <div className="relative">
+            <input
+              type="date"
+              name="date"
+              value={formData.date}
+              onChange={handleChange}
+              required
+              className="p-3 border border-gray-300 rounded w-full"
+            />
+            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-400">
+              📅
+            </span>
+          </div>
 
           <textarea
             name="message"
