@@ -1,9 +1,10 @@
-import ServiceCard from "@/components/reusable/cards/serviceCard";
+import Image from "next/image";
+import image from "../../icons/srg-eep-home-feature-600x338.webp"
 import { services } from "@/db";
 export default function Services() {
   return (
-    <section className="py-16 bg-white px-6">
-      <ServiceCard/>
+    <section className="py-10 bg-white px-6">
+      <div><Image className="rounded-md object-fit shadow-md " src={image} alt="service-img"/></div>
       <div className="max-w-6xl mx-auto text-center mt-8">
         <h2 className="text-4xl font-bold mb-4 text-gray-800">Our Services</h2>
         <p className="text-gray-600 mb-12">
