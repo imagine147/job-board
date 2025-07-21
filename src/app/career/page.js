@@ -72,12 +72,11 @@ export default function CareerPage() {
                   {job.location} • {job.type}
                 </p>
               </div>
-              <Link
-                href="/apply"
-                className="text-blue-600 font-medium hover:underline"
+              <div
+                className="text-blue-600 font-medium hover:underline cursor-not-allowed"
               >
                 Apply
-              </Link>
+              </div>
             </div>
           ))}
         </div>

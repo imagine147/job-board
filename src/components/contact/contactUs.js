@@ -12,11 +12,11 @@ const ContactUs = () => {
           <address className="not-italic text-gray-700 text-base leading-relaxed">
             547 Moreland Way, Santa Clara, CA 95054<br />
             United States<br />
-            <Link href="mailto:remotejobhabiledata@aol.com" className="block hover:underline">
-              remotejobhabiledata@aol.com
+            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=sutherlandcompany@gmail.com" className="block hover:underline" target="_blank" rel="noopener noreferrer">
+              sutherlandcompany@gmail.com
             </Link>
             <Link href="tel:+13128564179" className="block hover:underline">
-              (312) 856-4179
+              +1 (646) 907-8545
             </Link>
           </address>
         </div>

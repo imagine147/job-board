@@ -31,16 +31,16 @@ export default function Footer() {
           <h3 className="text-gray-700  font-semibold mb-2">Connect With Us</h3>
           <div className="flex justify-center md:justify-start space-x-4 mb-4">
             <Link href="https://facebook.com" aria-label="Facebook">
-              <Facebook className="w-5 h-5 hover:text-white" />
+              <Facebook className="w-5 h-5 hover:text-[#a30162]  cursor-not-allowed" />
             </Link>
             <Link href="https://twitter.com" aria-label="Twitter">
-              <Twitter className="w-5 h-5 hover:text-white" />
+              <Twitter className="w-5 h-5 hover:text-[#a30162]  cursor-not-allowed" />
             </Link>
             <Link href="https://linkedin.com" aria-label="LinkedIn">
-              <Linkedin className="w-5 h-5 hover:text-white" />
+              <Linkedin className="w-5 h-5 hover:text-[#a30162]  cursor-not-allowed" />
             </Link>
-            <Link href="mailto:remotejobhabiledata@aol.com" aria-label="Email">
-              <Mail className="w-5 h-5 hover:text-white" />
+            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=sutherlandcompany@gmail.com" aria-label="Email">
+              <Mail className="w-5 h-5 hover:text-[#a30162]" />
             </Link>
           </div>
           <p className="text-xs">&copy; {new Date().getFullYear()} RemoteJob. All rights reserved.</p>
