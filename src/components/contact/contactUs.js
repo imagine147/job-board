@@ -10,7 +10,7 @@ const ContactUs = () => {
   const [status, setStatus] = useState('');
   const [error, setError] = useState('');
 
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xvgqkokj';
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xpwlpwql";
 
   const validateEmail = (email) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
