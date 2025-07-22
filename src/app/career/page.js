@@ -104,12 +104,12 @@ export default function CareerPage() {
         <p className="mb-6">
           We’re always on the lookout for great talent. Reach out and introduce yourself.
         </p>
-        <Link
-          href="/apply"
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=sutherlandcompany@gmail.com"
           className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
         >
           Send a General Application
-        </Link>
+        </a>
       </section>
     </div>
   );

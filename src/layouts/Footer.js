@@ -39,7 +39,7 @@ export default function Footer() {
             <Link href="https://linkedin.com" aria-label="LinkedIn">
               <Linkedin className="w-5 h-5 hover:text-[#a30162]  cursor-not-allowed" />
             </Link>
-            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=sutherlandcompany@gmail.com" aria-label="Email">
+            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=sutherlandcompany@gmail.com" target="blank" rel="noopener noreferrer" aria-label="Email">
               <Mail className="w-5 h-5 hover:text-[#a30162]" />
             </Link>
           </div>

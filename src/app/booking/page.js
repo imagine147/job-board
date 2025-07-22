@@ -13,7 +13,7 @@ export default function BookingSection() {
 
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
-  const FORM_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID"; // Replace with your actual Formspree endpoint
+  const FORM_ENDPOINT = "https://formspree.io/f/xblkgjlj"; // Replace with your actual Formspree endpoint
 
   const validate = () => {
     const newErrors = {};
@@ -76,7 +76,8 @@ export default function BookingSection() {
             🎉 Booking submitted! We’ll be in touch shortly.
           </div>
         ) : (
-          <form
+          <form action="https://formspree.io/f/xblkgjlj"
+          method="POST"
             onSubmit={handleSubmit}
             className="bg-white p-8 rounded-xl shadow-md grid gap-6 text-left"
           >
